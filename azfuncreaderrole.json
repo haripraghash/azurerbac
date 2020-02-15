@@ -1,0 +1,28 @@
+{
+  "Name": "App service reader",
+  "Id": "995ef1dd-1270-4e3e-a153-cfd2173e2a16",
+  "IsCustom": true,
+  "Description": "Lets you just read app service resources.",
+  "Actions": [
+    "microsoft.web/sites/*",
+    "microsoft.web/sites/*/write",
+    "Microsoft.Storage/storageAccounts/read",
+    "Microsoft.Web/sites/deployments/read",
+    "microsoft.web/sites/functions/properties/read",
+    "microsoft.web/sites/functions/token/read",
+    "microsoft.web/sites/functions/read",
+    "microsoft.web/sites/functions/action"
+  ],
+  "NotActions": [
+  "Microsoft.Web/sites/publishxml/Action",
+    "Microsoft.Web/sites/slotsswap/Action",
+    "Microsoft.Web/sites/Delete",
+    "microsoft.web/sites/publishxml/read"
+  ],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/ce38cf7c-3580-4375-b891-13a38abb98be"
+  ]
+}
+
